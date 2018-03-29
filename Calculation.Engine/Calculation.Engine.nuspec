@@ -11,6 +11,9 @@
 		<frameworkAssemblies>
 			<frameworkAssembly assemblyName="System" targetFramework="net40" />
 		</frameworkAssemblies>
+		<dependencies>
+			<dependency id="jQuery" version="3.0.0" />
+		</dependencies>
     </metadata>
 	<files>
 		<file src="obj\Release\*.dll" target="lib" />
