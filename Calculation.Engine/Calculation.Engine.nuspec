@@ -2,6 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
     <metadata>
     <id>Calculation.Engine</id>
+    <version>1.0</version>
     <authors>Zeb ur Rehman</authors>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <description>
