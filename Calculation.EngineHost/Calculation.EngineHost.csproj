@@ -32,8 +32,8 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="Calculation.Engine">
-      <HintPath>..\Libraries\Calculation.Engine.dll</HintPath>
+    <Reference Include="Calculation.Engine, Version=2.3.0.20, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Calculation.Engine.2.3.0.20\lib\net461\Calculation.Engine.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
@@ -50,6 +50,7 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+    <None Include="packages.config" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
